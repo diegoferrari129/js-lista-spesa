@@ -2,9 +2,12 @@ const food = ['patatine', 'gelato', 'uova', 'macinato', 'insalata', 'pomodoro', 
 
 let foodList = document.getElementById('foodList');
 
-
 let i = 0;
 while (i < food.length) {
+
     let listItem = document.createElement('li');
-    
+    listItem.innerText = food[i];
+
+    i++
 }
+
