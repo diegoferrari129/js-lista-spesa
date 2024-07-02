@@ -7,7 +7,9 @@ while (i < food.length) {
 
     let listItem = document.createElement('li');
     listItem.innerText = food[i];
-
+    
+    foodList.append(listItem);
     i++
 }
+
 
